@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/cardboard-sheet-paper-abstract-texture-background_7182-2105.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#head h1 {
+  font-size: 80px;
+  color: #1c1f33;
+  text-align: center;
+}
+#head > .hline {
+  width: 50%;
+  height: 5px;
+  border: 0;
+  border-top: 10px solid #1c1f33;
+  margin: 5px;
+  padding: 0;
+}/*# sourceMappingURL=master.css.map */

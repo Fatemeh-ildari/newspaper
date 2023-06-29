@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/master.css">
+    <style>
+        .parent {
+            width: 100%;
+            height: 100vh;
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+
+        }
+
+        .parent>div {
+            /* border: 1px solid black;
+            background-color: rgb(218, 222, 225); */
+            color: rgb(240, 233, 233);
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parent>div:nth-of-type(1) {
+            grid-column: 1 / span 3;
+            color: #1c1f33;
+        }
+
+        .parent>div:nth-of-type(2) {
+            grid-area: 1 / 4/ span 1 / span 2;
+            font-size: 25px;
+            color: #1c1f33;
+            margin: 30px;
+        }
+
+        .parent>div:nth-of-type(3) {
+            grid-area: 2 / 1/ span 2 /span 2;
+            color: #1c1f33;
+            font-size: 50px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .parent>div:nth-of-type(3):hover {
+            background-color: #1c1f33;
+            color: white;
+        }
+
+        .parent>div:nth-of-type(4) {
+            grid-area: 2 / 3 / span 4/ span 4;
+            justify-content: right;
+
+        }
+
+        .parent>div:nth-of-type(5) {
+            grid-area: 2 /3 / span 2/ span 1;
+            color: #1c1f33;
+            font-size: 20px;
+        }
+
+        .parent>div:nth-of-type(6) {
+            grid-area: 4 / 3 / span 4 / span 1;
+            color: #1c1f33;
+            font-size: 20px;
+        }
+
+        .parent>div:nth-of-type(7) {
+            grid-area: 4 / 1/ span 3 / span 2;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="head">
+            <header>
+                <h1>The Daily Prophet</h1>
+                <hr class="hline">
+            </header>
+        </section>
+        <div class="parent">
+            <div>More than 500 million copies of the Harry Potter books sold</div>
+            <div>Godric Gryffindors Wand Resurfaces At Hogwarts
+                Earlier today Kaitlyn Byers, a 4th year from Ravenclaw, discovered what is now thought to be Godric
+                Gryffindors Wand. While the magical item is currently being housed by The Ministry of Magic and
+                undergoing tests to confirm its origin, how the wand made it into the hands of a student is quite
+                astonishing .</div>
+            <div>
+                Lord Voldemorts REAL childhood reveled!
+            </div>
+            <div><img src="img/New-covers-for-Harry-Potter-ebooks-animated.gif" alt=""></div>
+            <div>
+                5Rita Sketer relves a part of her new book ever wicth and wizard are talking about!
+
+                A young boy lay awake in his bed with his deep hazel eyes piercing the dark, watching the clock that
+                read 11:58 PM very intently. With his fingers interlocked and crossed over...
+            </div>
+            <div>How To Make Chocolate Frogs
+                Everybody loves chocolate frogs. It's impossible to not love them, so The Daily Prophet offers its
+                reader with its recipe. So hold you frorgs tight as you read this</div>
+            <div><img src="img/tumblr_opmoxsH9A01uqa1iwo2_540.webp" alt=""></div>
+           
+
+
+        </div>
+    </main>
+</body>
+
+</html>
